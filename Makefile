@@ -1,5 +1,5 @@
 build:
-	go build -buildmode=c-shared -o ext/pdf_form/pdf_form.so ext/pdf_form/pdf_form.go
+	cd ext/pdf_form && go build -buildmode=c-shared -o pdf_form.so pdf_form.go
 
 # fake out clean and install
 clean:

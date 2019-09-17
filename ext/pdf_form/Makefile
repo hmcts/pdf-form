@@ -1,5 +1,5 @@
 build:
-	go build -buildmode=c-shared -o pdf_form.so pdf_form.go
+	go build -buildmode=c-shared -o pdf_form.so .
 
 # fake out clean and install
 clean:
