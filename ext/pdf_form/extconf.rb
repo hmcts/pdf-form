@@ -1,3 +1,3 @@
-require "mkmf"
-
-create_makefile("pdf_form/pdf_form")
+# this is a cheat
+puts "running make in #{Dir.pwd}"
+`make build`

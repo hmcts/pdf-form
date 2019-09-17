@@ -14,3 +14,6 @@ mkmf.log
 /.idea
 # rspec failure tracking
 .rspec_status
+ext/pdf_form/pdf_form.so
+ext/pdf_form/pdf_form.h
+ext/pdf_form/.idea
